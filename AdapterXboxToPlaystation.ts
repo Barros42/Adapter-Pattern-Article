@@ -24,9 +24,9 @@ export class AdapterXboxToPlaystation {
       case 'B':
         return 'Circle'
       case 'A':
-        return 'Square'
-      case 'X':
         return 'Cross'
+      case 'X':
+        return 'Square'
       default:
         throw new Error("Invalid Button");
     }
